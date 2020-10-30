@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+header{
+    padding: 1rem; 
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: #f5f3f3 0px 3px 15px;
+}
+
+header div:first-child{
+    font-weight: 500;
+    color: #0c9aec;
+}
+
+.description{
+    padding: 2.5rem 0rem;
+    font-weight: 200;
+    font-family: sans-serif;
+    line-height: 1.5rem;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    margin-bottom: 2.5rem;
+}
+
+.card{
+    border-radius: 10px;
+    padding: 0.8rem;
+    box-shadow: #f1f0f069 0 5px 15px;
+    color: #fff;
+}
+
+#card1{
+    background-color: #4f5d75;
+}
+
+#card2{
+    background-color: #bfc0c0;
+}
+
+#card3{
+    background-color: #ef8354;
+}
+
+.item{
+    margin: 0.8rem 0.5rem;
+    font-weight: 300;
+}
+
+.field-name{
+    font-weight: 500;
+}
+
+#search-page{
+    background-color: #000;
+}
+
+.shop-container{
+    padding: 1rem;
+    text-align: center;
+}
+
+input{
+    padding: 0.5rem;
+    margin-top: 10rem;
+    font-size: 1.3rem;
+    width: 50%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+input:focus{
+    outline: none;
+}
+
+input:active{
+    border: none;
+}
+
+#search-response{
+    margin: auto;
+    margin-top: 0.5rem;
+    width: 50%;
+    text-align: center;
+}
+
+.search-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0.5rem;
+    border-radius: 5px;
+    margin: 0.5rem 0rem;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.search-card:hover{
+    background-color: #000;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+.search-company{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 60%;
+}
+
+.company-name{
+    font-weight: 500;
+}
+
+.company-ticker{
+    font-weight: 300;
+}
+
+#daily-chart{
+    position: relative;
+}
+
+#daily-chart-title{
+    position: absolute;
+    display: inline-block;
+    z-index: 10;
+    text-align: center;
+    top: 3rem;
+    left: 46vw;
+    font-size: 1.5rem;
+    color: #64ee5f;
+    color: #0c9aec;
+    font-weight: 500;
+}
